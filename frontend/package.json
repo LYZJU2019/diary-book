@@ -13,6 +13,7 @@
     "classnames": "^2.3.1",
     "dayjs": "^1.10.4",
     "lib-flexible": "^0.3.2",
+    "pm2": "^5.3.0",
     "pushstate-server": "^3.1.0",
     "query-string": "^7.0.0",
     "rc-form": "^2.4.12",
