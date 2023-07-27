@@ -13,7 +13,7 @@ module.exports = {
       repo: "git@github.com:LYZJU2019/diary-book.git",
       path: "/root/diary-book/frontend",
       "post-deploy":
-        "git reset --hard && git checkout master && git pull && nvm use 16.20.1 && npm i --production=false && pm2 startOrReload ecosystem.config.js", // -production=false 下载全量包
+        "git reset --hard && git checkout master && git pull && nvm use 16.20.1 && cd frontend && npm i --production=false && pm2 startOrReload ecosystem.config.js", // -production=false 下载全量包
       env: {
         NODE_ENV: "production",
       },
